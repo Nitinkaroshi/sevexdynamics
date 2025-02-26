@@ -1,7 +1,7 @@
 /********** Template CSS **********/
 :root {
     --primary: #1A2BC6;
-    --secondary: #FDBE33;
+    --secondary: #fff4dc;
     --light: #F4F6F8;
     --dark: #040F28;
 }
@@ -272,4 +272,35 @@
 
 .whatsapp-icon {
     cursor: pointer;
+}
+/* Change hover color to white */
+/* Ensure the hover background color changes to white */
+.social-btn:hover {
+    background-color: white !important;
+    color: black !important; /* Change icon color for contrast */
+    border-color: white !important;
+}
+
+/* Fix Bootstrap override */
+.btn-primary:hover {
+    background-color: white !important;
+    border-color: white !important;
+    color: black !important;
+}
+
+/* Remove WhatsApp icon color */
+.whatsapp-btn i {
+    color: inherit !important; /* Makes the icon take the text color */
+}
+
+/* Remove WhatsApp background */
+.whatsapp-btn {
+    background-color: transparent !important;
+    color: rgb(255, 255, 255) !important; /* Make it white initially */
+}
+
+/* WhatsApp hover effect */
+.whatsapp-btn:hover {
+    background-color: #ffffff !important;
+    color: rgb(0, 0, 0) !important; /* Change text/icon to black on hover */
 }

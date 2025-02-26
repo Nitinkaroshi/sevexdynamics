@@ -3088,8 +3088,8 @@ fieldset:disabled .btn {
 
 .btn-primary:hover {
     color: #000;
-    background-color: #fd7537;
-    border-color: #fd6d2c
+    /* background-color: #fd7537;
+    border-color: #fd6d2c */
 }
 
 .btn-check:focus+.btn-primary,
@@ -3133,8 +3133,8 @@ fieldset:disabled .btn {
 
 .btn-secondary:hover {
     color: #000;
-    background-color: #fdc852;
-    border-color: #fdc547
+    /* background-color: #fdc852;
+    border-color: #fdc547 */
 }
 
 .btn-check:focus+.btn-secondary,
@@ -3268,8 +3268,8 @@ fieldset:disabled .btn {
 
 .btn-warning:hover {
     color: #000;
-    background-color: #ffca2c;
-    border-color: #ffc720
+    /* background-color: #ffca2c;
+    border-color: #ffc720 */
 }
 
 .btn-check:focus+.btn-warning,
@@ -3313,8 +3313,8 @@ fieldset:disabled .btn {
 
 .btn-danger:hover {
     color: #fff;
-    background-color: #bb2d3b;
-    border-color: #b02a37
+    /* background-color: #bb2d3b;
+    border-color: #b02a37 */
 }
 
 .btn-check:focus+.btn-danger,
@@ -3767,7 +3767,7 @@ fieldset:disabled .btn {
 }
 
 .btn-link:hover {
-    color: #ca4a10
+    color: white
 }
 
 .btn-link:disabled,
@@ -4340,7 +4340,7 @@ fieldset:disabled .btn {
 
 .nav-link:hover,
 .nav-link:focus {
-    color: #ca4a10
+    color: #ffffff
 }
 
 .nav-link.disabled {
@@ -5162,7 +5162,7 @@ fieldset:disabled .btn {
 
 .page-link:hover {
     z-index: 2;
-    color: #ca4a10;
+    color: #fff4ee;
     background-color: #e9ecef;
     border-color: #dee2e6
 }
