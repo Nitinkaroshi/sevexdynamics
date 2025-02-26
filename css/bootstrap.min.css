@@ -128,7 +128,7 @@ h3,
 
 h4,
 .h4 {
-    font-size: calc(1.275rem + .3vw)
+    font-size: calc(1.0rem + .3vw)
 }
 
 @media (min-width: 1200px) {
@@ -525,7 +525,7 @@ progress {
 }
 
 .display-4 {
-    font-size: calc(1.475rem + 2.7vw);
+    font-size: calc(1.475rem + 0.7vw);
     font-weight: 700;
     line-height: 1.2
 }
@@ -914,7 +914,7 @@ progress {
 
 .g-5,
 .gx-5 {
-    --bs-gutter-x: 3rem
+    --bs-gutter-x: 0rem
 }
 
 .g-5,
